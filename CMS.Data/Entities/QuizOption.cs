@@ -8,6 +8,6 @@ namespace CMS.Data.Entities
         public Quiz Quiz { get; set; }
 
         [MaxLength(150)]
-        public List<string> Option { get; set; }
+        public string Option { get; set; }
     }
 }
