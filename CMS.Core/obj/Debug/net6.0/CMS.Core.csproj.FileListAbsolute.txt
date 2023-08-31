@@ -1,0 +1,14 @@
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\bin\Debug\net6.0\CMS.Core.deps.json
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\bin\Debug\net6.0\CMS.Core.dll
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\bin\Debug\net6.0\CMS.Core.pdb
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\obj\Debug\net6.0\CMS.Core.csproj.AssemblyReference.cache
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\obj\Debug\net6.0\CMS.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\obj\Debug\net6.0\CMS.Core.AssemblyInfoInputs.cache
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\obj\Debug\net6.0\CMS.Core.AssemblyInfo.cs
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\obj\Debug\net6.0\CMS.Core.csproj.CoreCompileInputs.cache
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\obj\Debug\net6.0\CMS.Core.dll
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\obj\Debug\net6.0\refint\CMS.Core.dll
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\obj\Debug\net6.0\CMS.Core.pdb
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\obj\Debug\net6.0\ref\CMS.Core.dll
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\bin\Debug\net6.0\CMS.Core.runtimeconfig.json
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Core\obj\Debug\net6.0\CMS.Core.genruntimeconfig.cache

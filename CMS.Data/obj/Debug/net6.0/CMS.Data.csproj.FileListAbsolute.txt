@@ -1,0 +1,14 @@
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\obj\Debug\net6.0\CMS.Data.csproj.AssemblyReference.cache
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\obj\Debug\net6.0\CMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\obj\Debug\net6.0\CMS.Data.AssemblyInfoInputs.cache
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\obj\Debug\net6.0\CMS.Data.AssemblyInfo.cs
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\obj\Debug\net6.0\CMS.Data.csproj.CoreCompileInputs.cache
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\bin\Debug\net6.0\CMS.Data.deps.json
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\bin\Debug\net6.0\CMS.Data.runtimeconfig.json
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\bin\Debug\net6.0\CMS.Data.dll
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\bin\Debug\net6.0\CMS.Data.pdb
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\obj\Debug\net6.0\CMS.Data.dll
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\obj\Debug\net6.0\refint\CMS.Data.dll
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\obj\Debug\net6.0\CMS.Data.pdb
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\obj\Debug\net6.0\CMS.Data.genruntimeconfig.cache
+C:\Users\alabi\Desktop\OnBoard\CMS Project\CMS.Sln\CMS.Data\obj\Debug\net6.0\ref\CMS.Data.dll
