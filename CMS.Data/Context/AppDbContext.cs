@@ -15,7 +15,7 @@ namespace CMS.Data.Context
         {
         }
 
-        public DbSet<Activity> Activities { get; set; }
+        public DbSet<Activities> Activities { get; set; }
         public DbSet<Quiz> Quizs { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<Invite> Invites { get; set; }

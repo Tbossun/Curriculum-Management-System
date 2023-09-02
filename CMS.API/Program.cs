@@ -1,5 +1,9 @@
+using CMS.Core.Services.Implementation;
+using CMS.Core.Services.Interfaces;
 using CMS.Data.Context;
 using CMS.Data.Entities;
+using CMS.Data.Repository.Implementation;
+using CMS.Data.Repository.RepositoryInterface;
 using CMS.Data.Seeder;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -19,6 +23,10 @@ builder.Services.AddControllers()
     .AddNewtonsoftJson(option => option.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore); ;
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IActivitiesService, ActivitiesService>();
+builder.Services.AddScoped<ICourseService, CourseService>();
 
 //Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
@@ -63,6 +71,8 @@ builder.Services.AddSwaggerGen(c =>
                 });
 });
 
+//Register Automapper service
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddCors(options => {
     options.AddDefaultPolicy(builder =>
     {

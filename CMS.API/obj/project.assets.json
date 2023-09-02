@@ -3491,12 +3491,28 @@
           "bin/placeholder/Classlibraries.dll": {}
         }
       },
+      "CMS.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "CMS.Data": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.21"
+        },
+        "compile": {
+          "bin/placeholder/CMS.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CMS.Core.dll": {}
+        }
+      },
       "CMS.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.21",
+          "MimeKit": "4.1.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
@@ -10110,6 +10126,11 @@
       "path": "../../../Classlibraries/Classlibraries/Classlibraries.csproj",
       "msbuildProject": "../../../Classlibraries/Classlibraries/Classlibraries.csproj"
     },
+    "CMS.Core/1.0.0": {
+      "type": "project",
+      "path": "../CMS.Core/CMS.Core.csproj",
+      "msbuildProject": "../CMS.Core/CMS.Core.csproj"
+    },
     "CMS.Data/1.0.0": {
       "type": "project",
       "path": "../CMS.Data/CMS.Data.csproj",
@@ -10118,6 +10139,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CMS.Core >= 1.0.0",
       "CMS.Data >= 1.0.0",
       "Classlibraries >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.21",
@@ -10162,6 +10184,9 @@
           "projectReferences": {
             "C:\\Users\\alabi\\Desktop\\OnBoard\\Classlibraries\\Classlibraries\\Classlibraries.csproj": {
               "projectPath": "C:\\Users\\alabi\\Desktop\\OnBoard\\Classlibraries\\Classlibraries\\Classlibraries.csproj"
+            },
+            "C:\\Users\\alabi\\Desktop\\OnBoard\\CMS Project\\CMS.Sln\\CMS.Core\\CMS.Core.csproj": {
+              "projectPath": "C:\\Users\\alabi\\Desktop\\OnBoard\\CMS Project\\CMS.Sln\\CMS.Core\\CMS.Core.csproj"
             },
             "C:\\Users\\alabi\\Desktop\\OnBoard\\CMS Project\\CMS.Sln\\CMS.Data\\CMS.Data.csproj": {
               "projectPath": "C:\\Users\\alabi\\Desktop\\OnBoard\\CMS Project\\CMS.Sln\\CMS.Data\\CMS.Data.csproj"

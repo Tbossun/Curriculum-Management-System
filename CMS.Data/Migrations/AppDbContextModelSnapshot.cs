@@ -17,7 +17,7 @@ namespace CMS.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.21");
 
-            modelBuilder.Entity("CMS.Data.Entities.Activity", b =>
+            modelBuilder.Entity("CMS.Data.Entities.Activities", b =>
                 {
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd()
@@ -151,7 +151,7 @@ namespace CMS.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("ActivityId")
+                    b.Property<string>("ActivitiesId")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("AddedById")
@@ -176,7 +176,7 @@ namespace CMS.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ActivityId");
+                    b.HasIndex("ActivitiesId");
 
                     b.ToTable("Courses");
                 });
@@ -688,7 +688,7 @@ namespace CMS.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("CMS.Data.Entities.Activity", b =>
+            modelBuilder.Entity("CMS.Data.Entities.Activities", b =>
                 {
                     b.HasOne("CMS.Data.Entities.ApplicationUser", "User")
                         .WithMany()
@@ -701,9 +701,9 @@ namespace CMS.Data.Migrations
 
             modelBuilder.Entity("CMS.Data.Entities.Course", b =>
                 {
-                    b.HasOne("CMS.Data.Entities.Activity", null)
+                    b.HasOne("CMS.Data.Entities.Activities", null)
                         .WithMany("Courses")
-                        .HasForeignKey("ActivityId");
+                        .HasForeignKey("ActivitiesId");
                 });
 
             modelBuilder.Entity("CMS.Data.Entities.Lesson", b =>
@@ -901,7 +901,7 @@ namespace CMS.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("CMS.Data.Entities.Activity", b =>
+            modelBuilder.Entity("CMS.Data.Entities.Activities", b =>
                 {
                     b.Navigation("Courses");
                 });

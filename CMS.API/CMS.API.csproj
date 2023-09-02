@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Classlibraries\Classlibraries\Classlibraries.csproj" />
+    <ProjectReference Include="..\CMS.Core\CMS.Core.csproj" />
     <ProjectReference Include="..\CMS.Data\CMS.Data.csproj" />
   </ItemGroup>
 

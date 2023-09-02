@@ -2,7 +2,20 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<partial name="_LeftNavbarPartial" />
+
+<div class="">
+    <div class="right-main-panel">
+        <div>
+            <partial name="_TopNavbarPartial" />
+        </div>
+        <div class="text-center  inner-panel">
+            
+            <p class="text-center pt-5">
+                This project is a currirulum management system (CMS). It is intended to be a platform to <br />support improve
+                student's learning culture and study style.
+            </p>
+        </div>
+    </div>
 </div>
+
