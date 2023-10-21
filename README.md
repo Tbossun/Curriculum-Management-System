@@ -25,26 +25,30 @@ Before you begin, ensure you have the following installed on your system:
 
 Change your working directory to the project folder
 
-3. Running the Application
-Install Dependencies:
+3. **Install Dependencies**
 
-4. Use the .NET CLI to install the required packages and dependencies:
-  ```shell
-  dotnet restore
+   Use the .NET CLI to install the required packages and dependencies:
 
-5. Initialize the SQLite Database:
+   ```shell
+   dotnet restore
 
-Run the following commands to create and apply migrations for the SQLite database:
-```shell
-dotnet ef migrations add InitialCreate
-dotnet ef database update
+4. **Initialize the SQLite Database:**
 
-6. Build and Run the Project:
+   Run the following commands to create and apply migrations for the SQLite database:
 
-To build and run the application, use the following command:
-dotnet run
+   ```shell
+   dotnet ef migrations add InitialCreate
+   dotnet ef database update
 
-The application will be accessible in your web browser at http://localhost:5000 or https://localhost:5001.
+5. **Build and Run the Projec**
+
+   To build and run the application, use the following command
+
+   ```shell
+   dotnet run
+
+The application will be accessible in your web browser at 
+http://localhost:5048 
 
 Contributing
 If you would like to contribute to this project, please see the CONTRIBUTING.md file.
@@ -53,9 +57,13 @@ License
 This project is licensed under the MIT License.
 
 Contact
-If you have any questions or need further assistance, feel free to contact the project owner:
+If you have any questions or need further assistance, feel free to contact the project owner on their GitHub Profile.
 
-GitHub Profile
 Happy coding!
+
+
+
+
+
 
 
