@@ -1,4 +1,4 @@
-to<h1 align="center">Curriculum Management System</h1>
+upto<h1 align="center">Curriculum Management System</h1>
 
 <p align="center">
   Step-by-step guide to clone and run this ASP.NET MVC and Web API project with an SQLite database.
@@ -48,7 +48,7 @@ Change your working directory to the project folder
    dotnet run
 
 The application will be accessible in your web browser at 
-http://localhost:5048 
+http://localhost:7048 
 
 Contact
 If you have any questions or need further assistance, feel free to contact the project owner on their GitHub Profile.
